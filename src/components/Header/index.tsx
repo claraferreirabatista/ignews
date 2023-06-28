@@ -6,8 +6,12 @@ export function Header() {
       <div className={styles.headerContent}>
         <img src="/images/logo.svg" alt="logo-ig-news" className=""></img>
         <nav>
-          <a href="/">Home</a>
-          <a href="/posts">Post</a>
+          <a className={styles.active} href="/">
+            Home
+          </a>
+          <a href="/posts">
+            Post
+          </a>
         </nav>
         <button className=""></button>
       </div>
